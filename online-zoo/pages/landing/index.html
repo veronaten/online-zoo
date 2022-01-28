@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online-zoo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Kanit:wght@600&family=Roboto:wght@400;500&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <section class="panda">
+      <div class="container">
+        <header>
+          <div class="header">
+            <div class="logo">
+              <a href="#">
+                <img src="../../assets/icons/logo-online-zoo.svg" alt="Online-zoo">
+              </a>
+            </div>
+  
+            <nav>
+              <ul class="nav">
+                <li>
+                  <a href="#" class="a_about">About</a>
+                </li>
+                <li>
+                  <a href="../map/index.html">Мар</a>
+                </li>
+                <li>
+                  <a href="../zoos/panda/index.html">Zoos</a>
+                </li>
+                <li>
+                  <a href="../contact/index.html">Contact us</a>
+                </li>
+                <li>
+                  <a href="https://www.figma.com/file/aBvQMVmI665DtzprpiniuH/online-zoo">Design</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <h1>Online-zoo</h1>
+        </header>
+
+        <div class="panda_text">
+          <h2>Watch your favorite animal <span>online</span></h2>
+        </div>
+
+        <a class="a_btn_panda" href="../zoos/panda/index.html">
+          <button class="btn_panda">
+            <div class="btn_panda_play">
+              <img src="../../assets/icons/play.png" alt="play">
+            </div>
+            <div class ="btn_panda_text">Play</div>
+          </button>
+        </a>
+       
+      </div>
+    </section>
+    
+    <main>
+        <section class="how">
+          <div class="how_container">
+            <h3>How it works</h3>
+
+            <div class="carousel">
+              <ul class="how_animals">
+                <li class="how_item" data-pos="-2">
+                  <img class="how_eagle" src="../../assets/img/eagle_how.jpg" alt="Eagle">
+                </li>
+                <li class="how_item" data-pos="-1">
+                  <img class="how_tiger" src="../../assets/img/tiger_how.jpg" alt="Tiger">
+                </li>
+                <li class="how_item" data-pos="0">
+                  <img class="how_panda" src="../../assets/img/panda_how.jpg" alt="Panda">
+                </li>
+                <li class="how_item" data-pos="1">
+                  <img class="how_gorilla" src="../../assets/img/gorilla_how.jpg" alt="Gorilla">
+                </li>
+                <li class="how_item" data-pos="2">
+                  <img class="how_elephant" src="../../assets/img/elephant_how.jpg" alt="Elephant">
+                </li>
+              </ul>
+            </div>
+
+            <div class="how_text">
+              The application Оnline zoo will allow you to watch zoos' and nature reserves' inhabitants in live. Currently, under video-surveillance are pandas in China, eagles on Catalina Island (USA), alligators in Florida and gorillas in the Congo. We are expanding our capabilities and soon online you will meet Arctic snowy owl in Alaska, Penguin in California, Elephant from South Africa and Polar bear from Canada. You will see unique video-shots at any time of the day. If you liked a pet you watch and you want to please it with a delicious treat, you can pay a donation and the animal will receive a surprise from you during feeding hours.
+              We want to thank you for helping the animals and give you <a href="#">discount coupons</a> from our partners.
+            </div>
+          </div>
+        </section>
+
+        <!-- <section class="pets">
+          <div class="container">
+            <h3>Pets in zoo</h3>
+
+            <div class="pets_slider">
+              <button class="btn_slider_left"> <img src="../../assets/icons/arrow_left.svg" alt="Left"> </button>
+
+              <div class="pets_slider_animals">
+                <div class="pets_slider_animals_block">
+                  <a href="../zoos/panda/index.html">
+                    <img src="../../assets/img/panda_pets.jpg" alt="Panda">
+                  </a>
+                  <div class="pets_slider_animals_block_text">Panda, China</div>
+                </div>
+
+                <div class="pets_slider_animals_block">
+                  <a href="../zoos/alligator/index.html">
+                    <img src="../../assets/img/crocodile_pets.jpg" alt="Alligator">
+                  </a>
+                  <div class="pets_slider_animals_block_text">Alligator, USA</div>
+                </div>
+
+                <div class="pets_slider_animals_block">
+                  <a href="../zoos/gorilla/index.html">
+                    <img src="../../assets/img/gorilla_pets.jpg" alt="Gorilla">
+                  </a>
+                  <div class="pets_slider_animals_block_text">Gorilla, Eastern DRC</div>
+                </div>
+
+                <div class="pets_slider_animals_block" id="elephant">
+                  <a href="#">
+                    <img src="../../assets/img/alaphant_pets.jpg" alt="Elephant">
+                  </a>
+                  <div class="pets_slider_animals_block_text">Elephant, South Africa</div>
+                </div>
+
+                <div class="pets_slider_animals_block">
+                  <a href="#">
+                    <img src="../../assets/img/bear_pets.jpg" alt="Bear">
+                  </a>
+                  <div class="pets_slider_animals_block_text">Polar bear, Canada</div>
+                </div>
+
+                <div class="pets_slider_animals_block">
+                  <a href="../zoos/eagle/index.html">
+                    <img src="../../assets/img/eagle_pets.jpg" alt="Eagle">
+                  </a>
+                  <div class="pets_slider_animals_block_text">Bald eagle, USA</div>
+                </div>
+
+                <div class="pets_slider_animals_block">
+                  <a href="#">
+                    <img src="../../assets/img/owl_pets.jpg" alt="Owl">
+                  </a>
+                  <div class="pets_slider_animals_block_text">Arctic snowy owl, Alaska</div>
+                </div>
+
+                <div class="pets_slider_animals_block" id="penguin">
+                  <a href="#">
+                    <img src="../../assets/img/penguin_pets.jpg" alt="Penguin">
+                  </a>
+                  <div class="pets_slider_animals_block_text">Penguin, USA</div>
+                </div>
+              </div>
+
+              <button class="btn_slider_right"> <img src="../../assets/icons/arrow_right.svg" alt="Right"> </button>
+            </div>
+
+            <a class="a_btn_pets" href="../map/index.html">
+              <button class="btn_pets">
+              <div class="btn_pets_text">Choose your favorite</div>
+            </button></a>
+            
+          </div>
+        </section> -->
+        
+        <section class="pets">
+          <div class="container">
+            <h3>Pets in zoo</h3>
+  
+            <div class="pets_slider">
+              <button class="btn_slider_left"> <img src="../../assets/icons/arrow_left.svg" alt="Left"> </button>
+              <div class="pets_slider_animals__container">
+                <div class="pets_slider_animals__wrapper">
+                  <div class="pets_slider_animals">
+                    <div class="pets_slider_animals_block">
+                      <a href="../zoos/panda/index.html">
+                        <img src="../../assets/img/panda_pets.jpg" alt="Panda">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Panda, China</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="../zoos/alligator/index.html">
+                        <img src="../../assets/img/crocodile_pets.jpg" alt="Alligator">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Alligator, USA</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="../zoos/gorilla/index.html">
+                        <img src="../../assets/img/gorilla_pets.jpg" alt="Gorilla">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Gorilla, Eastern DRC</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block" id="elephant">
+                      <a href="#">
+                        <img src="../../assets/img/alaphant_pets.jpg" alt="Elephant">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Elephant, South Africa</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="#">
+                        <img src="../../assets/img/bear_pets.jpg" alt="Bear">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Polar bear, Canada</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="../zoos/eagle/index.html">
+                        <img src="../../assets/img/eagle_pets.jpg" alt="Eagle">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Bald eagle, USA</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="#">
+                        <img src="../../assets/img/owl_pets.jpg" alt="Owl">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Arctic snowy owl, Alaska</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block" id="penguin">
+                      <a href="#">
+                        <img src="../../assets/img/penguin_pets.jpg" alt="Penguin">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Penguin, USA</div>
+                    </div>
+                  </div>
+  
+                  <div class="pets_slider_animals">
+                    <div class="pets_slider_animals_block">
+                      <a href="../zoos/panda/index.html">
+                        <img src="../../assets/img/panda_pets.jpg" alt="Panda">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Panda, China</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="../zoos/alligator/index.html">
+                        <img src="../../assets/img/crocodile_pets.jpg" alt="Alligator">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Alligator, USA</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="../zoos/gorilla/index.html">
+                        <img src="../../assets/img/gorilla_pets.jpg" alt="Gorilla">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Gorilla, Eastern DRC</div>
+                    </div>
+
+                    <div class="pets_slider_animals_block" id="elephant">
+                      <a href="#">
+                        <img src="../../assets/img/alaphant_pets.jpg" alt="Elephant">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Elephant, South Africa</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="#">
+                        <img src="../../assets/img/bear_pets.jpg" alt="Bear">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Polar bear, Canada</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="../zoos/eagle/index.html">
+                        <img src="../../assets/img/eagle_pets.jpg" alt="Eagle">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Bald eagle, USA</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="#">
+                        <img src="../../assets/img/owl_pets.jpg" alt="Owl">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Arctic snowy owl, Alaska</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block" id="penguin">
+                      <a href="#">
+                        <img src="../../assets/img/penguin_pets.jpg" alt="Penguin">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Penguin, USA</div>
+                    </div>
+                  </div>
+                  <div class="pets_slider_animals">
+                    <div class="pets_slider_animals_block">
+                      <a href="../zoos/panda/index.html">
+                        <img src="../../assets/img/panda_pets.jpg" alt="Panda">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Panda, China</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="../zoos/alligator/index.html">
+                        <img src="../../assets/img/crocodile_pets.jpg" alt="Alligator">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Alligator, USA</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="../zoos/gorilla/index.html">
+                        <img src="../../assets/img/gorilla_pets.jpg" alt="Gorilla">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Gorilla, Eastern DRC</div>
+                    </div>
+
+                    <div class="pets_slider_animals_block" id="elephant">
+                      <a href="#">
+                        <img src="../../assets/img/alaphant_pets.jpg" alt="Elephant">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Elephant, South Africa</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="#">
+                        <img src="../../assets/img/bear_pets.jpg" alt="Bear">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Polar bear, Canada</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="../zoos/eagle/index.html">
+                        <img src="../../assets/img/eagle_pets.jpg" alt="Eagle">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Bald eagle, USA</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block">
+                      <a href="#">
+                        <img src="../../assets/img/owl_pets.jpg" alt="Owl">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Arctic snowy owl, Alaska</div>
+                    </div>
+  
+                    <div class="pets_slider_animals_block" id="penguin">
+                      <a href="#">
+                        <img src="../../assets/img/penguin_pets.jpg" alt="Penguin">
+                      </a>
+                      <div class="pets_slider_animals_block_text">Penguin, USA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn_slider_right"> <img src="../../assets/icons/arrow_right.svg" alt="Right"> </button>
+            </div>
+  
+            <a class="a_btn_pets" href="../map/index.html">
+              <button class="btn_pets">
+                <div class="btn_pets_text">Choose your favorite</div>
+              </button></a>
+  
+          </div>
+        </section>
+
+        <section class="pay">
+          <div class="container">
+            <h3>Pay and feed</h3>
+            <div class="pay_wrapper">
+              <div class="pay_block">
+                <img src="../../assets/icons/cards_pay.png" alt="Cards">
+                <div class="pay_text">You can pay for a donation to any animal using your Credit/Debit card</div>
+              </div>
+
+              <div class="pay_block">
+                <img src="../../assets/icons/zoo_pay.png" alt="Zoo">
+                <div class="pay_text">Donations will go to the account of the zoo or nature reserve</div>
+              </div>
+
+              <div class="pay_block" id="payBlockPanda">
+                <img src="../../assets/icons/panda_pay.png" alt="Panda">
+                <div class="pay_text">The animal will receive a delicious treat during feeding hours</div>
+              </div>
+            </div>
+   
+            <div class="pay_img">
+              <img src="../../assets/icons/arrows_pay.png" alt="Arrows">
+              <img class="pay_img_640" src="../../assets/icons/arrows_pay_640.png" alt="Arrows">
+            </div>
+          </div>
+        </section>
+        <section class="feedback">
+          <div class="container">
+            <h3>Testimonials</h3>
+            <div class="feedback_slider">
+              <button class="btn_slider_left" id="feedbackBtnLeft"> <img src="../../assets/icons/arrow_left.svg" alt="Left"> </button> 
+
+              <div class="feedback_slider_wrapper">
+
+                <div class="feedback_slider_block">
+                  <div class="feedback_slider_block_about">
+                    <div class="feedback_img">
+                      <img src="../../assets/icons/caren.png" alt="Photo">
+                    </div>
+                    <div class="feedback_block_name">
+                      <div class="feedback_name">Karen Maitland</div>
+                      <div class="feedback_name_items">
+                        <div class="feedback_money"> <img src="../../assets/icons/money.png" alt="Circle"></div>
+                        <div class="feedback_cash">+$10</div>
+                      </div>
+                      
+                    </div>
+                  </div> 
+                  <div class="feedback_slider_block_text">
+                    "Thank you so much for these wonderful live webcams of the eagles on Catalina Island. Being able to watch them in their natural habitat as opposed to zoos is so wonderful. I cannot see myself ever being able to come up there to see them in person, so this is a great substitute. Thank you again."
+                  </div>
+                </div>
+
+                <div class="feedback_slider_block">
+                  <div class="feedback_slider_block_about">
+                    <div class="feedback_img">
+                      <img src="../../assets/icons/sara.png" alt="Photo">
+                    </div>
+                    <div class="feedback_block_name">
+                      <div class="feedback_name">Sara Jones</div>
+                      <div class="feedback_name_items">
+                        <div class="feedback_money"> <img src="../../assets/icons/money.png" alt="Circle"></div>
+                        <div class="feedback_cash">+$13</div>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="feedback_slider_block_text">
+                    "A disability prevents me from enjoying the outdoors and travel like I used to do. I really enjoy all the live cams and can spend HOURS watching real-time entertainment. Wild life style!"
+                  </div> 
+                </div>
+
+                <div class="feedback_slider_block">
+                  <div class="feedback_slider_block_about">
+                    <div class="feedback_img">
+                      <img src="../../assets/icons/alex.png" alt="Photo">
+                    </div>
+                    <div class="feedback_block_name">
+                      <div class="feedback_name">Alex Barden</div>
+                      <div class="feedback_name_items">
+                        <div class="feedback_money"> <img src="../../assets/icons/money.png" alt="Circle"></div>
+                        <div class="feedback_cash">+$7</div>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="feedback_slider_block_text">
+                    "Here's a huge "thank-you" from New Hampshire - you allow me to travel the world without ever leaving the comfort of my office chair. Jammies on and coffee cup in hand, I am Phineas Fogg!!"
+                  </div> 
+                </div>
+
+                <div class="feedback_slider_block" id="feedbackSliderblockAlene">
+                  <div class="feedback_slider_block_about">
+                    <div class="feedback_img">
+                      <img src="../../assets/icons/alene.png" alt="Photo">
+                    </div>
+                    <div class="feedback_block_name">
+                      <div class="feedback_name">Alene Ray</div>
+                      <div class="feedback_name_items">
+                        <div class="feedback_money"> <img src="../../assets/icons/money.png" alt="Circle"></div>
+                        <div class="feedback_cash">+$18</div>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="feedback_slider_block_text">
+                    "Thank you for all the knowledge, education, pleasure and happiness you have add to all our lives at no expense on our part. My humble thanks and gratitude are being wished for all of you. I want to thank you and feed the animals a small reward"
+                  </div> 
+                </div>
+              </div>
+
+              <button class="btn_slider_right" id="feedbackBtnRight"> <img src="../../assets/icons/arrow_right.svg" alt="Right"> </button>
+            </div>
+
+            <button class="btn_fdb">
+              <div class="btn_fdb_text">Leave feedback</div>
+            </button>
+          </div>
+        </section>
+    </main>
+    
+    <footer>
+      <div class="container">
+        <div class="footer_social">
+
+          <div class="footer_logo">
+            <a href="#">
+              <img src="../../assets/icons/logo-online-zoo.svg" alt="Online-zoo">
+            </a>
+          </div>
+
+          <button class="btn_footer" id="btn_footer">
+            <div class="btn_footer_text">Donate for volunteers</div>
+          </button>
+
+          <div class="footer_nav">
+            <div class="footer_nav_about">
+              <a href="#">About</a>
+              <a href="../map/index.html">Мар</a>
+            </div>
+            <div class="footer_nav_contact">
+              <a href="../contact/index.html">Contact us</a>
+              <a href="#">Feedback</a>
+            </div>
+          </div>
+
+          <div class="footer_social_items">
+          <ul class="footer_ul">
+            <li class="footer_li"><a href="https://www.instagram.com/"> <img src="../../assets/icons/Insta.svg" alt="Instagram"></a> </li>
+            <li class="footer_li"><a href="https://www.facebook.com/"> <img src="../../assets/icons/Facebook.svg" alt="Facebook"></a> </li>
+            <li class="footer_li"><a href="https://twitter.com/"> <img src="../../assets/icons/Twitter.svg" alt="Twitter"></a> </li>
+            <li class="footer_li"><a href="https://www.youtube.com/"> <img src="../../assets/icons/Youtube.svg" alt="Youtube"></a> </li>
+          </ul>
+          </div>
+
+        </div> 
+        
+        <div class="footer_logo_items">
+          <div class="footer_rs"> <a href="https://rs.school/" title="Roling Scoupes School"><img src="../../assets/icons/rs.svg" alt="Logo RS School"></a></div>
+          <div class="footer_yem"> <a href="https://academy.yem.digital/" title="Academy YEM Digital"><img src="../../assets/icons/Yem.svg" alt="Logo Yem"></a></div>
+          <div class="footer_year">Copyright ©RSSchool and ©Yem Digital 2020 - 2021</div>
+          <div class="footer_design">Ten Veronika</div>
+        </div>
+      </div>
+    </footer>
+  </div> 
+
+  <div class="form-feedback hidden" id="form-feedback">
+    <form action="">
+      <div class="choose">
+        <input class="choose_animal" type="text" id="name" required placeholder="Choose animal">
+        <div class="btn_choose_animal"></div>
+      </div>
+      <br>
+      <br>
+      <div class="amount">
+        <input type="text" id="number" required placeholder="Amount">
+        <input type="text" id="usd" required placeholder="USD">
+      </div>
+      <!-- <br> -->
+      <br>
+      <textarea id="text-feedback" required placeholder="Your text here"></textarea>
+      <br>
+      <br>
+      <button class="button invalid" id="next" type="submit">Next</button>
+    </form>
+  </div>
+
+  <div class="cover hidden" id="cover">
+
+  </div>
+  
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* width: 1920px; */
+  padding: 190px 0 190px 0;
+}
+
+.er_img {
+  margin: 0 auto;
+  width: 675px;
+  height: 560px;
+}
+
+.er_title {
+  margin-top: 35px;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.er_link {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.er_link a {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #59C3FB;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  body {
+    width: 1200px;
+    padding: 190px 0 190px 0;
+  }
+  
+  body .wrapper {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    width: 640px;
+    padding: 109px 0 109px 0;
+  }
+  
+  body .wrapper {
+    width: 640px;
+  }
+  
+  .er_img {
+    margin: 0 auto;
+    width: 550px;
+    height: 445px;
+  }
+
+  .er_img img {
+    width: 550px;
+    height: 560px;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    width: 320px;
+    padding: 136px 0 136px 0;
+  }
+  
+  body .wrapper {
+    width: 320px;
+  }
+
+  .er_img {
+    margin: 0 auto;
+    width: 260px;
+    height: 215px;
+  }
+
+  .er_img img {
+    width: 260px;
+    height: 240px;
+  }
+
+  .er_title {
+    margin-top: 15px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .er_link {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .er_link a {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #59C3FB;
+    text-decoration: none;
+  }
+}
